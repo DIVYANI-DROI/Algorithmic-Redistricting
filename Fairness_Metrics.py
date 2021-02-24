@@ -30,9 +30,9 @@ def partisan_bias(data):
 
 def mean_median_difference(data):
 
-    total_votes_d = sum(data['d_votes'])  # Only considering d_votes
+    total_votes_d = sum(data['r_votes'])  # The value will not change even if we consider d_votes
     average = total_votes_d / len(data)
-    med = statistics.median(data['d_votes'])
+    med = statistics.median(data['r_votes'])
 
     return (med - average) / len(data)
 
