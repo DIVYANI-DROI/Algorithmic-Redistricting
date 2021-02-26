@@ -1,5 +1,5 @@
 # Algorithmic-Redistricting
-**Deep Reinforcement Learning project for District Division.**
+**Deep Reinforcement Learning project for Redistricting.**
 
 Our Project was to build a Deep Reinforcement Learning Model to perform redistricting in the state of Iowa. 
 
@@ -16,7 +16,7 @@ Our Project was to build a Deep Reinforcement Learning Model to perform redistri
 # Objective 
 - We decided to use the state of Iowa as our dataset on which to perfrom algorithmic redistricting. 
 
-## Dataset
+# Data
 - We used the mggg-states github to use the Iowa Shapefile that they had: [mggg-states](https://github.com/mggg-states/IA-shapefiles#metadata). We used [mygeodata](https://mygeodata.cloud/converter/shp-to-csv) to convert Iowa Shapefiles to a CSV format 
 
 ####  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Metadata
@@ -76,3 +76,12 @@ Our Project was to build a Deep Reinforcement Learning Model to perform redistri
 - `PRES16R`: Number of votes for 2016 Republican presidential candidate
 - `PRES16OTH`: Number of votes for 2016 other presidential candidates
 - `CD`: Congressional district ID
+
+
+# EDA
+
+# Reinforcement Learning
+
+
+
+## Fairness Metrics
